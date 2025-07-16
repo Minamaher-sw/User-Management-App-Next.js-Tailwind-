@@ -57,7 +57,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-gray-800">About LinkedIn</h2>
           <p className="text-gray-600 text-lg">
-            LinkedIn is the world's largest professional network with hundreds of millions of members, connecting professionals to make them more productive and successful.
+            LinkedIn is the world is largest professional network with hundreds of millions of members, connecting professionals to make them more productive and successful.
           </p>
         </div>
       </section>

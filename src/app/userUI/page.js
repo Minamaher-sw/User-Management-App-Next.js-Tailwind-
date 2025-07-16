@@ -124,7 +124,7 @@ function Page() {
         </div>
 
         {user.length === 0 && (
-          <p className="text-center text-gray-500 mt-8">No users found. Click "Load Users" to fetch data.</p>
+          <p className="text-center text-gray-500 mt-8">No users found. Click &quot Load Users &quot to fetch data.</p>
         )}
       </div>
     </div>

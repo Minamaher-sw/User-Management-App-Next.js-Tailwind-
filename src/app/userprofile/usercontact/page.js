@@ -13,7 +13,7 @@ export default function ContactPage() {
 
         {/* Page Description */}
         <p className="text-gray-600 mb-8 text-center">
-          We'd love to hear from you. Please fill out the form below and we will get in touch with you shortly.
+          We would love to hear from you. Please fill out the form below and we will get in touch with you shortly.
         </p>
 
         {/* Contact Form */}
