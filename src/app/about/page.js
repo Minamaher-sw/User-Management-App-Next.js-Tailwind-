@@ -1,34 +1,48 @@
-import React from 'react'
+import React from 'react';
 
-function page() {
+export const metadata = {
+  title: "About",
+  description: "About Page",
+};
+
+function Page() {
   return (
-   <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-b from-white to-gray-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">About Us</h2>
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          We build solutions for your business growth
+        <h2 className="text-sm text-blue-700 font-semibold tracking-widest uppercase">About Us</h2>
+        <p className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          Empowering businesses with technology
         </p>
-        <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-          Our team of experts crafts digital products with scalable architectures, elegant UI/UX, and robust backends to empower your vision.
+        <p className="mt-5 max-w-2xl text-lg text-gray-600 mx-auto">
+          We craft scalable products with robust backends and beautiful user experiences to accelerate your growth and impact.
         </p>
       </div>
 
-      <div className="mt-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 className="text-lg font-medium text-gray-900">Our Mission</h3>
-          <p className="mt-2 text-gray-600">
-            Delivering innovative software solutions that drive success and create meaningful impact for our clients worldwide.
+      <div className="mt-16 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="bg-white p-8 rounded-xl shadow hover:shadow-lg transition duration-300">
+          <h3 className="text-xl font-semibold text-gray-800">Our Mission</h3>
+          <p className="mt-3 text-gray-600">
+            Deliver innovative software solutions that drive measurable success and create meaningful global impact.
           </p>
         </div>
-        <div className="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 className="text-lg font-medium text-gray-900">Our Vision</h3>
-          <p className="mt-2 text-gray-600">
-            To be a leading technology partner recognized for excellence, innovation, and people-centered solutions.
+        <div className="bg-white p-8 rounded-xl shadow hover:shadow-lg transition duration-300">
+          <h3 className="text-xl font-semibold text-gray-800">Our Vision</h3>
+          <p className="mt-3 text-gray-600">
+            To be a globally trusted technology partner recognized for innovation, excellence, and people-centered solutions.
           </p>
         </div>
+      </div>
+
+      <div className="mt-16 text-center">
+        <a
+          href="/contact"
+          className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-800 transition duration-300"
+        >
+          Connect with Us
+        </a>
       </div>
     </section>
-  )
+  );
 }
 
-export default page
+export default Page;

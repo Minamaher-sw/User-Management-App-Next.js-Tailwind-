@@ -1,5 +1,8 @@
 import React from 'react'
-
+export const metadata = {
+  title: "Contact",
+  description: "Contact Page",
+};
 function page() {
     return (
         <section className="bg-gray-50 py-16" id="contact">
